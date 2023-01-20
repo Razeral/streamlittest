@@ -18,7 +18,8 @@ import random
 
 SPACY_MODEL_NAMES = ["en_core_web_sm"]
 EXC_FIELDS = ["meta", "priority", "score"]
-HTML_WRAPPER = """<div style="overflow-x: auto; border: 1px solid #e6e9ef; border-radius: 0.25rem; padding: 1rem; margin-bottom: 2.5rem">{}</div>"""
+HTML_WRAPPER = """<div style="overflow-x: auto; border: 1px solid #e6e9ef; border-radius: 0.25rem; 
+padding: 1rem; margin-bottom: 2.5rem">{}</div>"""
 COLOR_ACCEPT = "#93eaa1"
 COLOR_REJECT = "#ff8f8e"
 
