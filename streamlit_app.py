@@ -41,7 +41,7 @@ UOBMerchants.MerchantList.value
 
 title = st.text_input('Merchant Search', 'Giant')
 exclusionList = title in UOBMerchants.MerchantList.value
-matchedList = [j for j in UOBMerchants.MerchantList.value.items()]
+matchedList = [UOBMerchants.MerchantList.value[j] for j in range(len(UOBMerchants.MerchantList.value))]
 st.write('The current movie title is', title)
 
 
