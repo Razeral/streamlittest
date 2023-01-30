@@ -46,3 +46,4 @@ st.write('The current movie title is', title)
 
 
 st.write(title, ' is excluded? ', exclusionList)
+st.write('Matched items = ', matchedList)
