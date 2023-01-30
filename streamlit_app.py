@@ -41,7 +41,7 @@ UOBMerchants.MerchantList.value
 
 title = st.text_input('Merchant Search', 'Giant')
 exclusionList = title in UOBMerchants.MerchantList.value
-matchedList = [j for i,j in enumerate(UOBMerchants.MerchantList.value) if j in title]
+matchedList = np.where(np.array(UOBMerchants.MerchantList.value) == title)[0]
 st.write('The current movie title is', title)
 
 
