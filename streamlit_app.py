@@ -38,3 +38,7 @@ st.subheader('Map of all pickups at %s:00' % hour_to_filter)
 st.map(filtered_data)
 
 UOBMerchants.MerchantList.value
+
+title = st.text_input('Merchant Search', 'Giant')
+exclusionList = title in UOBMerchants.MerchantList.value
+st.write('The current movie title is', title)
